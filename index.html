@@ -1,164 +1,245 @@
 <!DOCTYPE html>
 <html lang="en">
 
+
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Conexion con bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <!--Conexion con footer-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css">
     <!--Conexion con el CSS-->
     <link rel="stylesheet" href="css/style.css">
-    <!--Nombre de Pagina-->
     <title>INICIO</title>
 </head>
 
+
+
 <body>
     <header>
-        <!--Paginas de navegacion-->
-        <nav>
-            <ul>
-                <li>
-                    <a href="index.html">Inicio</a>
-                </li>
-                <li>
-                    <a href="pages/cinematica.html">Cinematica</a>
-                </li>
-                <li>
-                    <a href="pages/skins.html">Skins</a>
-                </li>
-                <li>
-                    <a href="pages/guia.html">Guias</a>
-                </li>
-                <li>
-                    <a href="pages/contacto.html">Contacto</a>
-                </li>
-            </ul>
+        <!--menu de navegacion-->
+        <nav class="navbar navbar-expand-lg bg-dark" data-bs-theme="dark">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">
+                    <img src="img/FANS DE MILIO.png" alt="">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+                    <ul class="navbar-nav text-center">
+                        <li>
+                            <a class="nav-link" href="index.html">Inicio</a>
+                        </li>
+                        <li>
+                            <a class="nav-link" href="pages/cinematica.html">Cinematica</a>
+                        </li>
+                        <li>
+                            <a class="nav-link" href="pages/skins.html">Skins</a>
+                        </li>
+                        <li>
+                            <a class="nav-link" href="pages/duos.html">Duos</a>
+                        </li>
+                        <li>
+                            <a class="nav-link" href="pages/guia.html">Guias</a>
+                        </li>
+                        <li>
+                            <a class="nav-link" href="pages/contacto.html">Contacto</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
         </nav>
     </header>
 
+
+
     <main>
-        <section>
-            <!--Titulo-->
-            <h1>
-                SITIO WEB PARA FANS DE MILIO
-            </h1>
-            <!--Mover directamente a la imagen de milio-->
-            <a href="#milio">imagen de milio</a>
-            <!--Informacion e historia-->
-            <h2>
-                Milio el aventurero
-            </h2>
-            <p> La historia de Milio comenzó hace generaciones con su abuela, Lupé, y su hermana
-                gemela, Luné, dos
-                maestras elementales que hacían uso de sus respectivos axiomas, tierra y fuego, para superar las pruebas
-                del Vidalion y formar parte de los Yun Tal. Pero, después de que atrapasen a Luné confabulando contra
-                los Yun Tal, ambas hermanas fueron encerradas y castigadas por su crimen. Lupé acabó relegada a la zona
-                más lejana de Ixtal, y Luné desapareció por completo, lo que acabó con la última pizca de confianza de
-                Lupé.
+        <section id="container">
+            <!--blog de milio inicial-->
+            <div class="card text-bg-warning mb-3" style="max-width: fullscream;">
+                <!--portada web-->
+                <div class="card-header">SITIO WEB PARA FANS DE MILIO</div>
+                <div class="card-body">
+                    <!--titulo-->
+                    <h1 class="card-title text-center m-5 mb-5">Milio el aventurero</h1>
+                    <!--Link direccion a la imagen-->
+                    <a href="#milio">imagen de milio</a>
+                    <!--texto del blog-->
+                    <p class="card-text ">La historia de Milio comenzó hace generaciones con su abuela, Lupé, y su
+                        hermana
+                        gemela, Luné, dos
+                        maestras elementales que hacían uso de sus respectivos axiomas, tierra y fuego, para superar las
+                        pruebas
+                        del Vidalion y formar parte de los Yun Tal. Pero, después de que atrapasen a Luné confabulando
+                        contra
+                        los Yun Tal, ambas hermanas fueron encerradas y castigadas por su crimen. Lupé acabó relegada a
+                        la zona
+                        más lejana de Ixtal, y Luné desapareció por completo, lo que acabó con la última pizca de
+                        confianza de
+                        Lupé.
 
-                Cuando nació Milio, su familia había hecho todo lo posible para sacarles partido a sus nuevas vidas.
-                Solo conoció el amor y las risas y, para él, la vida en el pueblo era todo un paraíso; no necesitaba
-                nada más.
+                        Cuando nació Milio, su familia había hecho todo lo posible para sacarles partido a sus nuevas
+                        vidas.
+                        Solo conoció el amor y las risas y, para él, la vida en el pueblo era todo un paraíso; no
+                        necesitaba
+                        nada más.
 
-                Cuando Milio fue lo bastante mayor, Lupé intentó enseñarle a su nieto el uso de los axiomas. Aunque no
-                lo había conseguido con el resto de su familia, el talento de Milio parecía prometedor. Aceptó los
-                elementos con naturalidad; sin embargo, no terminaba de entender los preceptos y rigor de la disciplina.
-                Decepcionada, Lupé perdió toda esperanza y renunció a enseñarle a Milio.
+                        Cuando Milio fue lo bastante mayor, Lupé intentó enseñarle a su nieto el uso de los axiomas.
+                        Aunque no
+                        lo había conseguido con el resto de su familia, el talento de Milio parecía prometedor. Aceptó
+                        los
+                        elementos con naturalidad; sin embargo, no terminaba de entender los preceptos y rigor de la
+                        disciplina.
+                        Decepcionada, Lupé perdió toda esperanza y renunció a enseñarle a Milio.
 
-                Sin embargo, Milio siguió aprendiendo por su cuenta. Al no seguir las enseñanzas de su abuela, abandonó
-                toda restricción que había intentado imponerle. Estudió la naturaleza en sí misma y creó de forma
-                intuitiva sus propias reglas y, al final, acabó por dominar el fuego, el único axioma que su abuela se
-                negaba a enseñarle.
+                        Sin embargo, Milio siguió aprendiendo por su cuenta. Al no seguir las enseñanzas de su abuela,
+                        abandonó
+                        toda restricción que había intentado imponerle. Estudió la naturaleza en sí misma y creó de
+                        forma
+                        intuitiva sus propias reglas y, al final, acabó por dominar el fuego, el único axioma que su
+                        abuela se
+                        negaba a enseñarle.
 
-                Pero había algo que no acababa de convencerle a Milio. ¿Hacía falta que el fuego fuese tan destructivo?
-                Sobre todo, tras ver el potencial que tenía para hacer mucho más.
+                        Pero había algo que no acababa de convencerle a Milio. ¿Hacía falta que el fuego fuese tan
+                        destructivo?
+                        Sobre todo, tras ver el potencial que tenía para hacer mucho más.
 
-                La respuesta la descubrió una noche de verano en la que perseguía el resplandor de las luciérnagas.
-                Estas lo llevaron hasta la cazadora del pueblo, que había resultado herida y no podía moverse. Milio
-                intentó mantenerla estable con su axioma de fuego, pero no era suficiente. Sabiendo que la curandera del
-                pueblo estaba demasiado lejos, intentó adaptar el axioma para convertirlo en una fuerza curativa.
+                        La respuesta la descubrió una noche de verano en la que perseguía el resplandor de las
+                        luciérnagas.
+                        Estas lo llevaron hasta la cazadora del pueblo, que había resultado herida y no podía moverse.
+                        Milio
+                        intentó mantenerla estable con su axioma de fuego, pero no era suficiente. Sabiendo que la
+                        curandera del
+                        pueblo estaba demasiado lejos, intentó adaptar el axioma para convertirlo en una fuerza
+                        curativa.
 
-                Cuando puso sus manos sobre el estómago de la cazadora para taponar la herida, sintió calidez..., una
-                calidez de lo más familiar y relajante, como si estuviese tocando su alma. Su llama interior. Entonces,
-                Milio comenzó a sentir esa misma llama en su interior. La podía sentir en los árboles y las hojas, como
-                si cada parte de la jungla estuviese cobrando vida, como una hoguera.
+                        Cuando puso sus manos sobre el estómago de la cazadora para taponar la herida, sintió
+                        calidez..., una
+                        calidez de lo más familiar y relajante, como si estuviese tocando su alma. Su llama interior.
+                        Entonces,
+                        Milio comenzó a sentir esa misma llama en su interior. La podía sentir en los árboles y las
+                        hojas, como
+                        si cada parte de la jungla estuviese cobrando vida, como una hoguera.
 
-                Al concentrar toda su energía en esa sensación, usó lo que la naturaleza le había enseñado para
-                manifestarlo a través del fuego. De ahí, surgió una pequeña criatura, pequeña y tímida, con unos ojos
-                enormes y amables. Milio la colocó sobre la herida de la cazadora y sintió como la criatura y su llama
-                interior la curaban.
+                        Al concentrar toda su energía en esa sensación, usó lo que la naturaleza le había enseñado para
+                        manifestarlo a través del fuego. De ahí, surgió una pequeña criatura, pequeña y tímida, con unos
+                        ojos
+                        enormes y amables. Milio la colocó sobre la herida de la cazadora y sintió como la criatura y su
+                        llama
+                        interior la curaban.
 
-                Esa noche, había descubierto un axioma completamente nuevo, al que apodó cariñosamente como "llama de la
-                calma".
+                        Esa noche, había descubierto un axioma completamente nuevo, al que apodó cariñosamente como
+                        "llama de la
+                        calma".
 
-                Milio volvió corriendo a casa para enseñarle a su familia lo que había hecho. Ante sus ojos, manifestó
-                otra llama de la calma, que bailó alegremente sobre la palma su mano, su fuemigo, mientras su familia
-                saltaba de alegría.
+                        Milio volvió corriendo a casa para enseñarle a su familia lo que había hecho. Ante sus ojos,
+                        manifestó
+                        otra llama de la calma, que bailó alegremente sobre la palma su mano, su fuemigo, mientras su
+                        familia
+                        saltaba de alegría.
 
-                Sin embargo, su abuela Lupé quedó muy intranquila con este avance.
+                        Sin embargo, su abuela Lupé quedó muy intranquila con este avance.
 
-                Al ver que Milio había dominado el axioma tan joven, Lupé sabía que su nieto había conseguido lo que el
-                resto de la familia había sido incapaz. Con sus habilidades, podría poner fin a su exilio de una vez por
-                todas y devolverlos al lugar que les correspondía entre el linaje en el poder de Ixtal. Sin embargo, le
-                preocupaban su fascinación por el fuego y que sus habilidades en ciernes iban en contra de las
-                enseñanzas tradicionales de los axiomas.
+                        Al ver que Milio había dominado el axioma tan joven, Lupé sabía que su nieto había conseguido lo
+                        que el
+                        resto de la familia había sido incapaz. Con sus habilidades, podría poner fin a su exilio de una
+                        vez por
+                        todas y devolverlos al lugar que les correspondía entre el linaje en el poder de Ixtal. Sin
+                        embargo, le
+                        preocupaban su fascinación por el fuego y que sus habilidades en ciernes iban en contra de las
+                        enseñanzas tradicionales de los axiomas.
 
-                A pesar de esto, Lupé apostó por su última opción de redención. Milio se convirtió en su centro de
-                atención. Siguió enseñándole, dio forma a sus habilidades y lo preparó para abandonar su hogar, viajar a
-                Ixaocan y liberarla de la carga de los errores que había cometido su hermana. Milio era consciente del
-                peso que cargaba sobre sus hombros, y el pensamiento de abandonar su hogar le aterrorizaba. Pero, como
-                Milio quería a su familia más que a nada en el mundo, sacaría coraje de donde no lo hubiese si así ellos
-                podían ser felices.
+                        A pesar de esto, Lupé apostó por su última opción de redención. Milio se convirtió en su centro
+                        de
+                        atención. Siguió enseñándole, dio forma a sus habilidades y lo preparó para abandonar su hogar,
+                        viajar a
+                        Ixaocan y liberarla de la carga de los errores que había cometido su hermana. Milio era
+                        consciente del
+                        peso que cargaba sobre sus hombros, y el pensamiento de abandonar su hogar le aterrorizaba.
+                        Pero, como
+                        Milio quería a su familia más que a nada en el mundo, sacaría coraje de donde no lo hubiese si
+                        así ellos
+                        podían ser felices.
 
-                Mientras se preparaba para su viaje, su abuela y él crearon una mochila especial a la que Milio le puso
-                el nombre de hornita, dentro de la cual podía llevar a sus ardientes fuemigos. Tras esto, con el corazón
-                apesadumbrado y una sonrisa de oreja a oreja, Milio dejó atrás su pueblo, a la corta edad de doce años,
-                ataviado únicamente con su hornita y algunas prendas de ropa que le había hecho su familia.
+                        Mientras se preparaba para su viaje, su abuela y él crearon una mochila especial a la que Milio
+                        le puso
+                        el nombre de hornita, dentro de la cual podía llevar a sus ardientes fuemigos. Tras esto, con el
+                        corazón
+                        apesadumbrado y una sonrisa de oreja a oreja, Milio dejó atrás su pueblo, a la corta edad de
+                        doce años,
+                        ataviado únicamente con su hornita y algunas prendas de ropa que le había hecho su familia.
 
-                Cruzó todo Ixtal, abriéndose paso a través de la jungla, acampando bajo las estrellas y haciendo amigos
-                por el camino mientras enviaba cartas a su familia contándoles sus aventuras con todo lujo de detalles.
-                Tras un largo camino, Milio por fin llegó a Ixaocan, donde comenzó su entrenamiento para desafiar al
-                Vidalion.
+                        Cruzó todo Ixtal, abriéndose paso a través de la jungla, acampando bajo las estrellas y haciendo
+                        amigos
+                        por el camino mientras enviaba cartas a su familia contándoles sus aventuras con todo lujo de
+                        detalles.
+                        Tras un largo camino, Milio por fin llegó a Ixaocan, donde comenzó su entrenamiento para
+                        desafiar al
+                        Vidalion.
 
-                "El chico con las llamas de la calma" llamó la atención mucho más de lo esperado. Una de las
-                sorprendidas fue Luné, que se encontraba encerrada bajo la ciudad, aguardando al momento preciso. El
-                mismo Milio se ha percatado de los susurros que lo acompañan cuando camina por la ciudad, pero tiene
-                claro su objetivo: unirse a los Yun Tal y ser el orgullo de su familia.</p>
-            <!--Imagen de milio en carpeta img-->
-            <div id="milio">
-                <img src="img/maxresdefault.jpg" alt="images de milio">
-            </div>
-            <p id="parrafo-distinto">El mejor heroe de la grieta del invocador</p>
-            <p>Milio es un jovencito amable de Ixtal que, a pesar de su corta edad, ha conseguido dominar el axioma
-                ígneo y ha descubierto las llamas de la calma. Con este nuevo poder, Milio pretende ayudar a su familia
-                y poner fin a su exilio uniéndose a los Yun Tal, como ya hiciese antaño su abuela. Después de atravesar
-                las junglas de Ixtal hasta llegar a la capital de Ixaocan, Milio ahora se prepara para enfrentarse al
-                Vidalion y unirse a los Yun Tal, sin ser consciente de las pruebas y los peligros que le aguardan.</p>
+                        "El chico con las llamas de la calma" llamó la atención mucho más de lo esperado. Una de las
+                        sorprendidas fue Luné, que se encontraba encerrada bajo la ciudad, aguardando al momento
+                        preciso. El
+                        mismo Milio se ha percatado de los susurros que lo acompañan cuando camina por la ciudad, pero
+                        tiene
+                        claro su objetivo: unirse a los Yun Tal y ser el orgullo de su familia.</p>
+                    <div class="card" style="width: fullscream;">
+                        <!--imagen full-->
+                        <img src="img/maxresdefault.jpg" class="card-img-top" alt="images de milio">
+                        <div class="card-body">
+                            <!--subtitulo-->
+                            <h5 class="card-title">El mejor heroe de la grieta del invocador</h5>
+                            <!--texto de card pagina-->
+                            <p class="card-text">Milio es un jovencito amable de Ixtal que, a pesar de su corta edad, ha
+                                conseguido dominar el axioma
+                                ígneo y ha descubierto las llamas de la calma. Con este nuevo poder, Milio pretende
+                                ayudar a su familia
+                                y poner fin a su exilio uniéndose a los Yun Tal, como ya hiciese antaño su abuela.
+                                Después de atravesar
+                                las junglas de Ixtal hasta llegar a la capital de Ixaocan, Milio ahora se prepara para
+                                enfrentarse al
+                                Vidalion y unirse a los Yun Tal, sin ser consciente de las pruebas y los peligros que le
+                                aguardan.</p>
+                        </div>
+                    </div>
+                    <!--texto final de pagina-->
+                    <p class="card-text ">Milio es un joven de buen corazón proveniente de Ixtal que, a pesar de su
+                        juventud, dominó el
+                        axioma del fuego y descubrió algo nuevo: el fuego reconfortante. Con su reciente poder, Milio
+                        planea ayudar a su familia a escapar del exilio uniéndose a los Yun Tal... tal como alguna vez
+                        lo hizo su abuela. Después de viajar a través de las junglas de Ixtal hasta la capital de
+                        Ixaocan, Milio ahora se prepara para enfrentarse al Vidalion y unirse a los Yun Tal, sin saber
+                        los retos (y peligros) que le esperan.
+                    </p>
         </section>
     </main>
 
-    <footer>
+
+    <footer class="text-center" data-bs-theme="dark">
         <!--Logos de sitios web-->
-        <div class="logos">
-            <ul>
-                <li>Facebook</li>
-                <a class="facebook" href="https://www.facebook.com/RiotGames/"><img
-                        src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Facebook_f_logo_%282019%29.svg/2048px-Facebook_f_logo_%282019%29.svg.png"
-                        width="40px" alt="Logo de facebook">
-                </a>
-                <li>Instagram</li>
-                <a class="instagram" href="https://www.instagram.com/riotgames/"> <img class="instagram"
-                        src="https://th.bing.com/th/id/OIP.4yOhxJCs2K0_hNHRpteMmgHaHZ?pid=ImgDet&rs=1"
-                        alt="Logo de instagram">
-                </a>
-                <li>Youtube</li>
-                <a class="youtube" href="https://www.youtube.com/riotgames"><img class="youtube"
-                        src="https://pngimg.com/uploads/youtube/youtube_PNG102349.png" alt="Logo de youtube">
-                </a>
-            </ul>
-        </div>
+        <a href="https://www.facebook.com/RiotGames/" class="text-success">
+            <i class="bi bi-facebook fs-1"></i> </a>
+
+        <a href="https://www.instagram.com/riotgames/" class="">
+            <i class="bi bi-instagram fs-1"></i> </a>
+
+        <a href="https://www.youtube.com/riotgames" class="text-danger">
+            <i class="bi bi-youtube fs-1"></i> </a>
     </footer>
 
 
+    
+    <!--Link para conectar el bootstrap-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>
