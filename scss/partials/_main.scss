@@ -1,0 +1,193 @@
+body {
+    background-color: white;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+.caja-contacto {
+    display: inline-block;
+    background-color: $color-segundario;
+    width: 300;
+    height: 300;
+    border: 30px solid $color-principal;
+    display: inline-block;
+}
+
+.video10 {
+    width: 150;
+    text-align: center;
+    margin: 15px;
+}
+
+.container3 {
+    width: 100%;
+}
+
+.info1 {
+    margin: 45px;
+}
+
+.text {
+    color: black;
+}
+
+.import {
+    margin: 15px;
+}
+
+// utilizacion del grid
+// Valores para PC
+.grid-layout {
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    grid-template-rows: 20px 20px 20px 20px 20px;
+    width: 98%;
+    height: 102px;
+    margin: 0 auto;
+    background-color: $color-segundario;
+    padding: 5px;
+    border: 1px solid black;
+
+    .caja {
+        width: 75px;
+        height: 75px;
+        border: 4px solid black;
+        background-color: lightgray;
+        margin: 5px;
+        text-align: center;
+        line-height: 0px;
+
+        .img1 {
+            width: 70px;
+            height: 70px;
+        }
+
+        .img2 {
+            width: 70px;
+            height: 70px;
+        }
+
+        .img3 {
+            width: 70px;
+            height: 70px;
+        }
+
+        .img4 {
+            width: 70px;
+            height: 70px;
+        }
+
+        .img5 {
+            width: 70px;
+            height: 70px;
+        }
+    }
+}
+
+.grid-layouts2 {
+    width: 98%;
+    height: 900px;
+    display: grid;
+    text-align: center;
+    margin: 5px;
+    grid-template-columns: 100%;
+    background-color: $color-segundario;
+    padding: 10px;
+    border: 2px solid black;
+
+    .caja2 {
+        width: 100%;
+        height: 160px;
+        border: 1px solid black;
+        background-color: lightgray;
+        margin: 1px;
+        line-height: 9px;
+
+        .textot1 {
+            text-align: justify;
+            margin: 5px;
+            display: grid;
+            grid-template-columns: 100%;
+        }
+    }
+
+    .caja3 {
+        width: 100%;
+        height: 160px;
+        border: 1px solid black;
+        background-color: lightgray;
+        margin: 1px;
+        text-align: center;
+        line-height: 8px;
+
+        .textot2 {
+            text-align: justify;
+            margin: 5px;
+            display: grid;
+            grid-template-columns: 100%;
+        }
+    }
+
+    .caja4 {
+        width: 100%;
+        height: 170px;
+        border: 1px solid black;
+        background-color: lightgray;
+        margin: 1px;
+        text-align: center;
+        line-height: 8px;
+
+        .textot3 {
+            text-align: justify;
+            margin: 5px;
+            display: grid;
+            grid-template-columns: 100%;
+        }
+    }
+
+    .caja5 {
+        width: 100%;
+        height: 215px;
+        border: 1px solid black;
+        background-color: lightgray;
+        margin: 1px;
+        text-align: center;
+        line-height: 8px;
+
+        .textot4 {
+            text-align: justify;
+            margin: 5px;
+            display: grid;
+            grid-template-columns: 100%;
+        }
+    }
+
+    .caja6 {
+        width: 100%;
+        height: 170px;
+        border: 1px solid black;
+        background-color: lightgray;
+        margin: 1px;
+        text-align: center;
+        line-height: 8px;
+
+        .textot5 {
+            text-align: justify;
+            margin: 5px;
+            display: grid;
+            grid-template-columns: 100%;
+        }
+    }
+}
+
+.container7 {
+    border: 1px solid black;
+    height: 100px;
+    margin: 10px;
+    padding: 5px;
+
+    .caja7 {
+        text-align: justify;
+        font-family: "California Paradise";
+    }
+}

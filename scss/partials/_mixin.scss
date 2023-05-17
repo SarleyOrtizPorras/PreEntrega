@@ -1,0 +1,17 @@
+// uso del mixin
+
+@mixin justify($justify){
+    display: flex;
+    justify-content: $justify;
+}
+
+.container7 {
+    @include justify(center);
+    border: 1px solid black;
+    height: 100px;
+    margin: 10px;
+    .caja7 {
+        text-align: justify;
+        font-family: "California Paradise";
+    }
+}

@@ -1,0 +1,23 @@
+// Uso del Extend
+
+.boton {
+    color: aliceblue;
+    padding: .5rem;
+    width: 25%;
+    text-align: center;
+    text-decoration: none;
+    box-shadow: 0px 1px 3px red;
+    text-shadow: 1px 1px 3px red;
+    border: solid black;
+    background: -webkit-gradient(linear, 0 0, 0 100%, from (red), to(red));
+    background: -moz-linear-gradient(top, red, red);
+}
+
+.boton2 {
+    @extend .boton;
+}
+
+.boton:hover {
+    background-color: $color-principal;
+    color: aliceblue;
+}
